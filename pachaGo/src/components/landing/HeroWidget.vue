@@ -1,5 +1,4 @@
 <script setup>
-import { Checkbox } from 'primevue';
 </script>
 
 <template>
@@ -8,7 +7,7 @@ import { Checkbox } from 'primevue';
         <div  class="mx-6 md:mx-20 mt-0 md:mt-">
             <h1 id="top" class="font-normal text-white">Join the <br> community of</h1>        
             <h1 class="font-normal text-6xl text-white leading-normal md:mt-4">Pacha.go</h1>
-            <Button label="Find out more" as="router-link" to="/" rounded class="!text-xl mt-8 !px-4"></Button>
+            <!-- <Button label="Find out more" as="router-link" to="/" rounded class="!text-xl mt-8 !px-4"></Button> -->
         </div>
         <div class="flex justify-center md:justify-end">
             <img src="/demo/images/landing/cel-pacha.png" alt="Hero Image" class="w-9/12 md:w-auto" />

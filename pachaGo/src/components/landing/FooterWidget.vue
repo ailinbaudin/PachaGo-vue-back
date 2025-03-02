@@ -2,30 +2,23 @@
     <div class="py-6 px-6 mx-0 mt-20 lg:mx-20">
         <div class="grid grid-cols-12 gap-4">
             <div class="col-span-12 md:col-span-2">
-                <img src="/demo/images/landing/logo.png" alt="Hero Image" class="h-20 mr-2" /> <svg viewBox="0 0 54 40"
-                    fill="none" xmlns="http://www.w3.org/2000/svg" class="h-19 mr-2">
-                </svg>
+                <img src="/demo/images/landing/logo.png" alt="Hero Image" class="h-12 mr-2" />
             </div>
-
             <div class="col-span-12 md:col-span-10">
                 <div class="grid grid-cols-12 gap-8 text-center md:text-left">
                     <div class="col-span-12 md:col-span-3">
                         <h4 class="font-medium text-2xl leading-normal mb-4 text-surface-900 dark:text-surface-0">
-                            Company</h4>
-                        <a
-                            class="leading-normal text-xl block cursor-pointer mb-2 text-surface-700 dark:text-surface-100">About
-                            Us</a>
-                        <a
-                            class="leading-normal text-xl block cursor-pointer mb-2 text-surface-700 dark:text-surface-100">News</a>
-                        <a
-                            class="leading-normal text-xl block cursor-pointer mb-2 text-surface-700 dark:text-surface-100">Investor
-                            Relations</a>
-                        <a
-                            class="leading-normal text-xl block cursor-pointer mb-2 text-surface-700 dark:text-surface-100">Careers</a>
-                        <a class="leading-normal text-xl block cursor-pointer text-surface-700 dark:text-surface-100">Media
-                            Kit</a>
+                            Connect With Us</h4>
+                        <a href="https://www.instagram.com/pacha.go?igsh=aTZsamo2aTk0dWU1" target="_blank"
+                            class="leading-normal text-xl flex items-center cursor-pointer mb-2 text-surface-700 dark:text-surface-100">
+                            <i class="pi pi-instagram text-2xl mr-2"></i> Instagram
+                        </a>
+                        <a href="https://www.linkedin.com/company/pachago/posts/?feedView=all" target="_blank"
+                            class="leading-normal text-xl flex items-center cursor-pointer mb-2 text-surface-700 dark:text-surface-100">
+                            <i class="pi pi-linkedin text-2xl mr-2"></i> Linkedin
+                        </a>
                     </div>
-
+<!-- 
                     <div class="col-span-12 md:col-span-3">
                         <h4 class="font-medium text-2xl leading-normal mb-4 text-surface-900 dark:text-surface-0">
                             Resources</h4>
@@ -63,7 +56,7 @@
                             Policy</a>
                         <a class="leading-normal text-xl block cursor-pointer text-surface-700 dark:text-surface-100">Terms
                             of Service</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
