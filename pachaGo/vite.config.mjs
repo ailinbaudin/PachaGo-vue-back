@@ -5,11 +5,11 @@ import vue from '@vitejs/plugin-vue';
 import Components from 'unplugin-vue-components/vite';
 import { defineConfig } from 'vite';
 
-// https://vitejs.dev/config/
 export default defineConfig({
     optimizeDeps: {
         noDiscovery: true
     },
+    base: process.env.VITE_BASE_PATH || '/', 
     plugins: [
         vue(),
         Components({
@@ -22,3 +22,4 @@ export default defineConfig({
         }
     }
 });
+
