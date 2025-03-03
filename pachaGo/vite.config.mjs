@@ -7,7 +7,8 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
     optimizeDeps: {
-        noDiscovery: true
+        noDiscovery: true,
+        include: ['mapbox-gl']
     },
     base: process.env.VITE_BASE_PATH || '/', 
     plugins: [
