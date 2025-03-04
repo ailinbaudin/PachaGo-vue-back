@@ -3,7 +3,7 @@
 @use '@/assets/tailwind.css';
 @use '@/assets/layout/layout.scss';
 @use '@/assets/demo/demo.scss';
-
+@use 'bootstrap/scss/bootstrap';
 /* Stile per la prima sezione (BECOME A MEMBER OF PACHA•GO) */
 .section-overview {
     padding: 30px;
