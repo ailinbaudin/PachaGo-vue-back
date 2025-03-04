@@ -1,4 +1,8 @@
 <template>
+
+  <div>
+    <h1>FIND YOUR SEASONAL PAID EXPERIENCE IN AGRICOLTURE</h1>
+  </div>
   <div class="map-container">
     <div ref="mapContainer" class="mapbox-map"></div>
   </div>
@@ -55,6 +59,7 @@ export default {
   width: 100%;
   height: 100vh;
 }
+
 .mapbox-map {
   width: 100%;
   height: 100%;

@@ -12,6 +12,7 @@
         <div class="flex justify-center md:justify-end">
             <img src="/demo/images/landing/cel-pacha.png" alt="Hero Image" class="w-9/12 md:w-auto" />
         </div>
+       
     </div>
 </template>
 <style scoped>
