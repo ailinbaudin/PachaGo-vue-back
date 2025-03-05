@@ -1,16 +1,6 @@
-<template>
-
-  <div>
-    <h1>FIND YOUR SEASONAL PAID EXPERIENCE IN AGRICOLTURE</h1>
-  </div>
-  <div class="map-container">
-    <div ref="mapContainer" class="mapbox-map"></div>
-  </div>
-</template>
-
 <script>
 import * as mapboxgl from 'mapbox-gl';
-import 'mapbox-gl/dist/mapbox-gl.css'; // Load Mapbox CSS
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 export default {
   name: "MapComponent",
@@ -25,7 +15,7 @@ export default {
     },
     center: {
       type: Array,
-      default: () => [12.4924, 41.8902] // Default to Rome, Italy
+      default: () => [12.4924, 41.8902] // Por defecto, Roma, Italia
     },
     zoom: {
       type: Number,
@@ -43,10 +33,21 @@ export default {
       style: this.mapStyle,
       center: this.center,
       zoom: this.zoom,
-      accessToken: this.accessToken // Pass accessToken as an option
+      accessToken: this.accessToken
     });
 
+    // Agregar el control de navegación (zoom, rotación)
     this.map.addControl(new mapboxgl.NavigationControl());
+
+    this.map.on('load', () => {
+      const geocoder = new MapboxGeocoder({
+        accessToken: this.accessToken,
+        mapboxgl: mapboxgl
+      });
+      this.map.addControl(geocoder, 'top-left');
+      this.map.setPaintProperty('water', 'saturation', 0.5);
+      this.map.setPaintProperty('land', 'saturation', 1.5);
+    });
   },
   beforeUnmount() {
     if (this.map) this.map.remove();
@@ -54,14 +55,31 @@ export default {
 };
 </script>
 
+<template>
+  <div class="map-container border-round-lg shadow-3">
+    <div ref="mapContainer" class="mapbox-map border-2 border-primary"></div>
+  </div>
+</template>
+
 <style scoped>
+.text {
+  align-items: center;
+}
+
 .map-container {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  margin-top: 0;
 }
 
 .mapbox-map {
-  width: 100%;
+  width: 86%;
   height: 100%;
+  border-radius: 10px;
+  padding-top: 0;
+  margin-top: 0;
 }
 </style>

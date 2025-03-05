@@ -16,6 +16,11 @@
                         <a href="https://www.linkedin.com/company/pachago/posts/?feedView=all" target="_blank"
                             class="leading-normal text-xl flex items-center cursor-pointer mb-2 text-surface-700 dark:text-surface-100">
                             <i class="pi pi-linkedin text-2xl mr-2"></i> Linkedin
+                        
+                        </a>
+                        <a href="https://www.tiktok.com/@pachago2024" target="_blank"
+                            class="leading-normal text-xl flex items-center cursor-pointer mb-2 text-surface-700 dark:text-surface-100">
+                            <i class="pi pi-tiktok text-2xl mr-2"></i> TikTok
                         </a>
                     </div>
 <!-- 
