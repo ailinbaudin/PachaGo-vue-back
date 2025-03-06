@@ -17,11 +17,10 @@
             <img src="/demo/images/landing/cel-pacha.png" alt="Hero Image" class="w-7/12 md:w-auto" />
         </div>
     </div>
-
-    <div class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-7xl  title2">
+    <!-- <div class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-7xl  title2">
         Join the Community of
         Pacha.go
-    </div>
+    </div> -->
 </template>
 
 <style scoped>

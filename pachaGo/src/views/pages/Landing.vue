@@ -20,8 +20,9 @@ const mapZoom = 10;
                 <TopbarWidget />
             </div>
             <HeroWidget />
-            <MapComponent :accessToken="AccessToken" :mapStyle="mapStyle" :center="mapCenter" :zoom="mapZoom" />
+
             <HighlightsWidget />
+            <MapComponent :accessToken="AccessToken" :mapStyle="mapStyle" :center="mapCenter" :zoom="mapZoom" />
             <PricingWidget />
             <FooterWidget />
         </div>
