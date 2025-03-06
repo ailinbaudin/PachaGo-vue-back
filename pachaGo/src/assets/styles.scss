@@ -3,7 +3,7 @@
 @use '@/assets/tailwind.css';
 @use '@/assets/layout/layout.scss';
 @use '@/assets/demo/demo.scss';
-@use 'bootstrap/scss/bootstrap';
+// @use 'bootstrap/scss/bootstrap';
 /* Stile per la prima sezione (BECOME A MEMBER OF PACHA•GO) */
 .section-overview {
     padding: 30px;
@@ -93,20 +93,25 @@
   
   .recruiting-left {
     padding: 20px;
+    margin-bottom: 4%;
   }
   
   .recruiting-right {
-    padding: 20px;
+    padding: 5%;
     border-radius: 15px;
     background-color: #aecb78;
+    color: #fff;
+
   }
   
   .section-recruiting h2 {
     font-size: 28px;
+    padding-bottom: 5%;
   }
   
   .recruiting-right h3 {
     font-weight: 800;
+    color: #fff;
   }
   
   .recruiting-left h3 {

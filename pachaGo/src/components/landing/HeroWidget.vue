@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <div class="md:text-7xl sm:text-3xl text-white title2">
+    <div class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-7xl  title2">
         Join the Community of
         Pacha.go
     </div>
@@ -34,18 +34,7 @@
 
 .title2 {
     text-align: center;
-    justify-content: center;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 3%;
-    padding-bottom: 4%;
-    margin-top: 0%;
-    color: rgb(35, 34, 34);
-    /* background: url('/demo/images/landing/uvas2.png') no-repeat center center; */
-    background-size: cover;
-    /* Ajusta la opacidad y el tono según lo necesites */
-    width: 100%;
-    height: 100%;
+    padding-bottom: 3%;
 
 }
 
