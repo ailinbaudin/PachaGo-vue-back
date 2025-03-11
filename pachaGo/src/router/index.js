@@ -36,6 +36,11 @@ const router = createRouter({
                     component: () => import('@/views/uikit/RegisterCollector.vue')
                 },
                 {
+                    path: '/uikit/RegisterFarm',
+                    name: 'RegisterFarm',
+                    component: () => import('@/views/uikit/RegisterFarm.vue')
+                },
+                {
                     path: '/uikit/input',
                     name: 'input',
                     component: () => import('@/views/uikit/InputDoc.vue')
