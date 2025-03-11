@@ -1,15 +1,16 @@
 <script setup lang="ts">
 
+import About from '@/components/landing/About.vue';
+import CardsVentajas from '@/components/landing/CardsVentajas.vue';
 import FooterWidget from '@/components/landing/FooterWidget.vue';
 import HeroWidget from '@/components/landing/HeroWidget.vue';
-import HighlightsWidget from '@/components/landing/HighlightsWidget.vue';
-import PricingWidget from '@/components/landing/PricingWidget.vue';
+import Recruiting from '@/components/landing/Recruiting.vue';
 import TopbarWidget from '@/components/landing/TopbarWidget.vue';
-import MapComponent from '@/components/MapComponent.vue';
-const AccessToken = 'pk.eyJ1IjoicGFjaGFnbzI0IiwiYSI6ImNsdndlNXVvZTF5NHYybHJybGNjamxqajAifQ.R3tQ8_ZrNP0gJbLHL1BWBA';
-const mapStyle = 'mapbox://styles/mapbox/streets-v11';
-const mapCenter = [12.4924, 41.8902];
-const mapZoom = 10;
+import Working from '@/components/landing/Working.vue';
+// const AccessToken = 'pk.eyJ1IjoicGFjaGFnbzI0IiwiYSI6ImNsdndlNXVvZTF5NHYybHJybGNjamxqajAifQ.R3tQ8_ZrNP0gJbLHL1BWBA';
+// const mapStyle = 'mapbox://styles/mapbox/streets-v11';
+// const mapCenter = [12.4924, 41.8902];
+// const mapZoom = 10;
 
 </script>
 
@@ -20,11 +21,14 @@ const mapZoom = 10;
                 <TopbarWidget />
             </div>
             <HeroWidget />
+            <Working />
+            <Recruiting />
+            <CardsVentajas />
 
-            <HighlightsWidget />
-            <MapComponent :accessToken="AccessToken" :mapStyle="mapStyle" :center="mapCenter" :zoom="mapZoom" />
-            <PricingWidget />
+            <About />
             <FooterWidget />
+
         </div>
     </div>
+    <!-- ej de como importar map <MapComponent :accessToken="AccessToken" :mapStyle="mapStyle" :center="mapCenter" :zoom="mapZoom" /> -->
 </template>

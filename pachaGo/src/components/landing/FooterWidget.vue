@@ -32,7 +32,18 @@
                     </div>
                 </div>
             </div>
+
         </div>
+    </div>
+
+    <div class="flex flex-col text-white bg-gradient-copywright">
+        <p>"All rights reserved. The Pachago brand and its services comply with international ISO standards and cannot
+            be duplicated, sold, or distributed without prior authorization. We adhere to ISO 9001 for quality
+            management and ISO 27001 for information security, ensuring compliance with best industry practices.
+
+            All images, logos, and content used are either original, licensed, or authorized, following copyright
+            regulations and ISO 14001 environmental responsibility guidelines. Any unauthorized reproduction,
+            modification, or resale is strictly prohibited and may result in legal action."</p>
     </div>
 </template>
 
@@ -43,6 +54,16 @@
     width: 100%;
     padding-bottom: 50px;
     /* Ajusta según necesites */
+}
+
+.bg-gradient-copywright {
+    background-color: rgb(11, 190, 67);
+    padding-top: 0%;
+    padding-left: 2%;
+    padding: 2%;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 2%;
 }
 
 /* Contenedor principal del logo */

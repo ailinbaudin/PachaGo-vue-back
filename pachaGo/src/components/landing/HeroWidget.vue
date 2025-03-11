@@ -1,7 +1,6 @@
 <template>
     <div id="container-principal" class="flex  flex-col pt-6 px-6 lg:px-20 overflow-hidden"
         style="background: linear-gradient(180deg, rgb(255, 234, 9), rgb(147, 190, 67), rgb(11, 190, 67)); clip-path: ellipse(140% 75% at 50% 13%); ">
-        <!---->
         <div>
             <!-- <div id=" top" class="md:text-5xl sm:text-3xl text-white">
                 Join the <br> Community of <br>
