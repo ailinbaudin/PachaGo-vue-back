@@ -1,5 +1,5 @@
 <template>
-    <div id="highlights" class="py-6 px-6 lg:px-20 mx-0 my-12 lg:mx-20">
+    <div id="About" class="py-6 px-6 lg:px-20 mx-0 my-12 lg:mx-20">
         <div class="text-center">
             <div class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-4xl text-about">🌱 About Us </div>
             <div id="top"></div>

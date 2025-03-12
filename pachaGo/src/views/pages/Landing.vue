@@ -24,7 +24,6 @@ import Working from '@/components/landing/Working.vue';
             <Working />
             <Recruiting />
             <CardsVentajas />
-
             <About />
             <FooterWidget />
 
