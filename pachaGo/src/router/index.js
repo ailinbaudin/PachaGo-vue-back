@@ -111,6 +111,11 @@ const router = createRouter({
                     component: () => import('@/views/uikit/TimelineDoc.vue')
                 },
                 {
+                    path: '/pages/home',
+                    name: 'home',
+                    component: () => import('@/views/pages/Home.vue')
+                },
+                {
                     path: '/pages/empty',
                     name: 'empty',
                     component: () => import('@/views/pages/Empty.vue')

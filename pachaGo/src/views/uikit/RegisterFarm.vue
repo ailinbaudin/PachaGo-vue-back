@@ -74,6 +74,12 @@ function toggleRegisterButton() {
                             <InputNumber id="phone1" type="tel" placeholder="Enter your phone number" />
                         </div>
                     </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="phone1"><i class="pi pi-id-card"></i> Tax ID</label>
+                        <div class="p-inputgroup">
+                            <InputNumber id="phone1" type="tel" placeholder="Enter your tax ID" />
+                        </div>
+                    </div>
 
                     <!-- Política de Privacidad -->
                     <div class="flex items-center gap-2 mt-4">
