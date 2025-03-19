@@ -1,7 +1,7 @@
 <script>
 import * as mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-
+import CardExperiencie from './CardExperiencie.vue';
 export default {
   name: "MapComponent",
   props: {
@@ -56,7 +56,10 @@ export default {
 </script>
 
 <template>
+  <CardExperiencie />
+
   <div class="map-container border-round-lg shadow-3">
+
     <div ref="mapContainer" class="mapbox-map border-2 border-primary"></div>
   </div>
 </template>

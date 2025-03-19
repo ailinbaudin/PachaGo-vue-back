@@ -7,8 +7,7 @@
                 Pacha.go
             </div> -->
             <div class="title">
-                <h3 class="md:text-7xl sm:text-3xl text-white">FIND YOUR SEASONAL <br>PAID EXPERIENCE <br> IN
-                    AGRICOLTURE
+                <h3 class="md:text-7xl sm:text-3xl text-white">PAID EXPERIENCES  <br>IN AGRICULTURE, ANYWHERE
                 </h3>
             </div>
         </div>
