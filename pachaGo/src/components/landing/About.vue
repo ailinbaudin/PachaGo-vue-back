@@ -1,3 +1,6 @@
+<script setup>
+import FormContactNew from './FormContactNew.vue';
+</script>
 <template>
     <div id="About" class="py-6 px-6 lg:px-20 mx-0 my-12 lg:mx-20">
         <div class="text-center">
@@ -22,8 +25,8 @@
                 </span>
             </div>
         </div>
+        <FormContactNew/>
     </div>
-
 </template>
 <style scoped>
 .text-about {

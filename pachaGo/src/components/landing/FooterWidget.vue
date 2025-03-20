@@ -53,6 +53,7 @@
     background: linear-gradient(180deg, rgb(255, 234, 9), rgb(147, 190, 67), rgb(11, 190, 67));
     width: 100%;
     padding-bottom: 50px;
+    padding-top: 5%;
     /* Ajusta según necesites */
 }
 

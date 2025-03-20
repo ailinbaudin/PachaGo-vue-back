@@ -10,6 +10,7 @@
     "dependencies": {
         "@mapbox/mapbox-gl-geocoder": "^5.0.3",
         "@primeuix/themes": "^1.0.0",
+        "axios": "^1.8.4",
         "bootstrap": "^5.3.3",
         "chart.js": "3.3.2",
         "mapbox-gl": "^3.10.0",

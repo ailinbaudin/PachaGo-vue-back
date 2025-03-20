@@ -7,10 +7,7 @@ import HeroWidget from '@/components/landing/HeroWidget.vue';
 import Recruiting from '@/components/landing/Recruiting.vue';
 import TopbarWidget from '@/components/landing/TopbarWidget.vue';
 import Working from '@/components/landing/Working.vue';
-// const AccessToken = 'pk.eyJ1IjoicGFjaGFnbzI0IiwiYSI6ImNsdndlNXVvZTF5NHYybHJybGNjamxqajAifQ.R3tQ8_ZrNP0gJbLHL1BWBA';
-// const mapStyle = 'mapbox://styles/mapbox/streets-v11';
-// const mapCenter = [12.4924, 41.8902];
-// const mapZoom = 10;
+import FormContactNew from '@/components/landing/FormContactNew.vue';
 
 </script>
 
@@ -29,5 +26,5 @@ import Working from '@/components/landing/Working.vue';
 
         </div>
     </div>
-    <!-- ej de como importar map <MapComponent :accessToken="AccessToken" :mapStyle="mapStyle" :center="mapCenter" :zoom="mapZoom" /> -->
 </template>
+
