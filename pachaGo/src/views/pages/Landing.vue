@@ -7,7 +7,7 @@ import HeroWidget from '@/components/landing/HeroWidget.vue';
 import Recruiting from '@/components/landing/Recruiting.vue';
 import TopbarWidget from '@/components/landing/TopbarWidget.vue';
 import Working from '@/components/landing/Working.vue';
-import FormContactNew from '@/components/landing/FormContactNew.vue';
+import FloatingConfigurator from '@/components/FloatingConfigurator.vue';
 
 </script>
 
@@ -22,8 +22,8 @@ import FormContactNew from '@/components/landing/FormContactNew.vue';
             <Recruiting />
             <CardsVentajas />
             <About />
+            <FloatingConfigurator/>
             <FooterWidget />
-
         </div>
     </div>
 </template>

@@ -1,4 +1,4 @@
-<script>
+<script scoped>
 import * as mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import CardExperiencie from './CardExperiencie.vue';
