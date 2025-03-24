@@ -48,6 +48,7 @@
 </template>
 
 <style scoped>
+
 /* Fondo degradado con clip-path */
 .bg-gradient-footer {
     background: linear-gradient(180deg, rgb(255, 234, 9), rgb(147, 190, 67), rgb(11, 190, 67));
