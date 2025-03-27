@@ -22,8 +22,8 @@ import Working from '@/components/landing/Working.vue';
             <Recruiting />
             <CardsVentajas />
             <About />
+            <FloatingConfigurator/>
             <FooterWidget />
-
         </div>
     </div>
 </template>
