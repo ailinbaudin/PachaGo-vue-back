@@ -60,7 +60,8 @@ const toggleFavorite = () => {
         <template #footer>
             <div class="flex gap-4 mt-1">
                 <Button label="Annulla" severity="secondary" outlined class="w-full" />
-                <Button label="Applica" class="w-full" />
+                <Button label="Applica
+                " class="w-full" />
             </div>
         </template>
 
