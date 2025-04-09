@@ -10,7 +10,7 @@ export default defineConfig({
         noDiscovery: true,
         include: ['mapbox-gl']
     },
-    base: process.env.VITE_BASE_PATH || '/', 
+    base: '/', 
     plugins: [
         vue(),
         Components({
