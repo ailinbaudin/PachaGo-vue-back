@@ -1,4 +1,4 @@
 [build]
-  base = "pachago"
+  base = "pachaGo"
   command = "npm run build"
   publish = "dist"
