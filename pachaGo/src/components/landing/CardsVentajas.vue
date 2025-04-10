@@ -15,7 +15,7 @@
                         <br> experience in agriculture
                     </div>
 
-                    <img src="/demo/images/landing/collage.png" class="w-full h-64 object-cover mx-auto" alt="free" />
+                    <img src="/demo/images/landing/ergot.png" class="w-full h-64 object-cover mx-auto" alt="free" />
 
                     <Divider class="w-full bg-surface-200"></Divider>
                     <ul class="my-8 list-none p-0 flex text-surface-900 dark:text-surface-0 flex-col px-8">
