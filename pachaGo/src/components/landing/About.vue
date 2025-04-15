@@ -6,7 +6,7 @@ import FormContactNew from './FormContactNew.vue';
         <div class="text-center">
             <div class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-4xl sm:text-xl text-about">🌱 About Us </div>
             <div id="top"></div>
-            <span class="text-muted-color text-2xl"> Pacha Go connects adventurous experiencers with welcoming hosts in search of dedicated
+            <span class="text-muted-color text-2xl sm:text-lg md:text-xl"> Pacha Go connects adventurous experiencers with welcoming hosts in search of dedicated
                 hands.</span>
         </div>
 
@@ -17,7 +17,7 @@ import FormContactNew from './FormContactNew.vue';
             </div>
 
             <div class="col-span-12 lg:col-span-6 my-auto flex flex-col lg:items-end text-center lg:text-right gap-4">
-                <span class="text-surface-700 dark:text-surface-100 text-2xl leading-normal ml-0 md:ml-2"
+                <span class="text-surface-700 dark:text-surface-100 text-2xl leading-normal ml-0   sm:text-lg md:text-xl"
                     style="max-width: 650px">
                 We are a team of professionals from Argentina and Italy, united by the mission of making
                 agricultural work more accessible, fair, and efficient. Our platform bridges job seekers with reliable
