@@ -4,7 +4,7 @@ import FormContactNew from './FormContactNew.vue';
 <template>
     <div id="About" class="py-6 px-6 lg:px-20 mx-0 my-12 lg:mx-20">
         <div class="text-center">
-            <div class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-4xl text-about">🌱 About Us </div>
+            <div class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-4xl sm:text-xl text-about">🌱 About Us </div>
             <div id="top"></div>
             <span class="text-muted-color text-2xl"> Pacha Go connects adventurous experiencers with welcoming hosts in search of dedicated
                 hands.</span>

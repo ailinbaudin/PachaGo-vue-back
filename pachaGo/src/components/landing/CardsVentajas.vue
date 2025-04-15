@@ -1,7 +1,7 @@
 <template>
     <div id="pricing" class="py-6 px-6 lg:px-20 my-2 md:my-6">
         <div class="text-center mb-6 title">
-            <div class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-4xl">Are you an Experiencer or a
+            <div class="text-surface-900 dark:text-surface-0 font-normal sm:text-xl mb-2 text-4xl">Are you an Experiencer or a
                 Host?</div>
             <span class="text-muted-color text-2xl">For everyone, the best benefits.
             </span>
