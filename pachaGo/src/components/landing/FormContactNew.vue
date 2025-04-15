@@ -21,7 +21,7 @@
                             <label for="lastname">Lastname</label>
                             <InputText id="lastname" v-model="form.lastname" type="text" name="lastname" />
                         </div>
-                        <div class="flex flex-wrap">
+                        <div class="flex flex-wrap gap-2 w-full">
                             <label for="recommendations">Your Message</label>
                             <Textarea id="recommendations" v-model="form.message" name="message" rows="4" />
                         </div>
