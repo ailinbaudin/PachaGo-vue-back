@@ -1,20 +1,19 @@
 import { fileURLToPath, URL } from 'node:url';
-
 import { PrimeVueResolver } from '@primevue/auto-import-resolver';
 import vue from '@vitejs/plugin-vue';
 import Components from 'unplugin-vue-components/vite';
 import { defineConfig } from 'vite';
+
 
 export default defineConfig({
     optimizeDeps: {
         noDiscovery: true,
         include: ['mapbox-gl']
     },
-    base: process.env.VITE_BASE_PATH || '/', 
-    plugins: [
-        vue(),
+    base: '/', 
+    plugins: [vue(),
         Components({
-            resolvers: [PrimeVueResolver()]
+            resolvers:[PrimeVueResolver()]
         })
     ],
     resolve: {

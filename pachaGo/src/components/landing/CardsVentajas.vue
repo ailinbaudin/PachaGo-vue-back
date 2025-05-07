@@ -1,7 +1,7 @@
 <template>
     <div id="pricing" class="py-6 px-6 lg:px-20 my-2 md:my-6">
         <div class="text-center mb-6 title">
-            <div class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-4xl">Are you an Experiencer or a
+            <div class="text-surface-900 dark:text-surface-0 font-normal sm:text-xl mb-2 text-4xl">Are you an Experiencer or a
                 Host?</div>
             <span class="text-muted-color text-2xl">For everyone, the best benefits.
             </span>
@@ -15,7 +15,7 @@
                         <br> experience in agriculture
                     </div>
 
-                    <img src="/demo/images/landing/collage.png" class="w-full h-64 object-cover mx-auto" alt="free" />
+                    <img src="/demo/images/landing/ergot.png" class="w-full h-64 object-cover mx-auto" alt="free" />
 
                     <Divider class="w-full bg-surface-200"></Divider>
                     <ul class="my-8 list-none p-0 flex text-surface-900 dark:text-surface-0 flex-col px-8">

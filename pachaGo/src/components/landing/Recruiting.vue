@@ -1,7 +1,7 @@
 <template>
     <div id="highlights" class="py-6 px-6 lg:px-20 mx-0 my-12 lg:mx-20">
         <section class="section-recruiting">
-            <h2 class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-6xl">
+            <h2 class="text-surface-900 dark:text-surface-0 font-normal sm:text-xl mb-2 text-6xl">
                 <b>RECRUITING</b>
             </h2>
             <div class="flex flex-col md:flex-row w-full">

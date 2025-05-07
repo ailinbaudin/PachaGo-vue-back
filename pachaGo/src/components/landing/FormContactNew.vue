@@ -4,7 +4,7 @@
             <Fluid>
                 <div id="container" class="flex mt-8">
                     <div class="card flex flex-col gap-4 w-full">
-                        <div class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-4xl title">
+                        <div class="text-surface-900 dark:text-surface-0 font-normal sm:text-xl mb-2 text-4xl title">
                             Sign Up to Receive Pacha Go News and Updates!
                         </div>
                         <div class="flex flex-col md:flex-row gap-4">
@@ -21,7 +21,7 @@
                             <label for="lastname">Lastname</label>
                             <InputText id="lastname" v-model="form.lastname" type="text" name="lastname" />
                         </div>
-                        <div class="flex flex-wrap">
+                        <div class="flex flex-wrap gap-2 w-full">
                             <label for="recommendations">Your Message</label>
                             <Textarea id="recommendations" v-model="form.message" name="message" rows="4" />
                         </div>
