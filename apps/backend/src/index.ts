@@ -1,12 +1,19 @@
-import express from 'express';
-import userRoutes from './application/routes/userRoutes';
+// index.ts
+import app from './infrastructure/config/app';
+import { config } from './infrastructure/config/config';
+import { logger } from './infrastructure/config/logger';
 
-const app = express();
-app.use(express.json());
+const PORT = config.port || 3000;
+const server = app.listen(PORT, () => {
+  logger.info(`🚀 Server running in ${config.env} mode on port ${PORT}`);
+});
 
-app.use('/api/users', userRoutes);
+process.on('SIGTERM', () => {
+  logger.info('SIGTERM received. Shutting down gracefully');
+  server.close(() => logger.info('Process terminated'));
+});
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
+process.on('SIGINT', () => {
+  logger.info('SIGINT received. Shutting down gracefully');
+  server.close(() => logger.info('Process terminated'));
 });
