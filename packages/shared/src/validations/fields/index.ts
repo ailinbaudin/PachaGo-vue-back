@@ -20,3 +20,10 @@ export * from "./experiencerCompletionRate";
 //Host fields validation
 export * from "./hostCompanyName";
 export * from "./hostJobsDescription";
+export * from "./userEmail";
+export * from "./userPassword";
+export * from "./userRole";
+export * from "./userPhone";
+export * from "./userCountry";
+export * from "./userAbout";
+export * from "./userProfilePic";
